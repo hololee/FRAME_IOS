@@ -1,0 +1,6 @@
+framework module Pods_FRAMEiTests {
+  umbrella header "Pods-FRAMEiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

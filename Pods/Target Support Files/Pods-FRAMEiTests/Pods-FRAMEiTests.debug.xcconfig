@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/CropViewController" "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift" "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBootpay" "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift" "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CropViewController/CropViewController.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CryptoSwift/CryptoSwift.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher/Kingfisher.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyBootpay/SwiftyBootpay.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Toast-Swift/Toast_Swift.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ZIPFoundation/ZIPFoundation.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "CropViewController" -framework "CryptoSwift" -framework "Kingfisher" -framework "SwiftGifOrigin" -framework "SwiftyBootpay" -framework "Toast_Swift" -framework "ZIPFoundation"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

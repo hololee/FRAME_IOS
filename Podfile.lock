@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.0.0.beta.1)
+  - CropViewController (2.4.0)
+  - CryptoSwift (0.13.1)
+  - Kingfisher (5.0.1)
+  - SwiftGifOrigin (1.6.1)
+  - SwiftyBootpay (2.0.122):
+    - CryptoSwift
+  - Toast-Swift (4.0.1)
+  - ZIPFoundation (0.9.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0.beta.1)
+  - CropViewController
+  - Kingfisher (~> 5.0)
+  - SwiftGifOrigin (~> 1.6.1)
+  - SwiftyBootpay (~> 2.0.19)
+  - Toast-Swift (~> 4.0.0)
+  - ZIPFoundation (~> 0.9)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CropViewController
+    - CryptoSwift
+    - Kingfisher
+    - SwiftGifOrigin
+    - SwiftyBootpay
+    - Toast-Swift
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: 2ef6d6c984c5d21c366e9b41a9ae7dfee2b67a44
+  CropViewController: a090820b15fc3da68e694d7c192a4708c576828b
+  CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
+  Kingfisher: 4f771421b9208185217550528a06fd48756cb7c2
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  SwiftyBootpay: 0d5d3d3c312571111df0b25051b8fe0785d7b8b0
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+  ZIPFoundation: 68c35eb2637c21abe56dc60b3277636443bc1501
+
+PODFILE CHECKSUM: 551722950490cb738ac5a1b7d4f89de3c3605df4
+
+COCOAPODS: 1.5.3
